@@ -12,8 +12,8 @@ class TestArithmeticProgression(unittest.TestCase):
         self.assertEqual(result, expected_sequence)
 
     def test_different_progression(self):
-        progression_1 = arithmetic_progression(1, 2, 5)
-        progression_2 = arithmetic_progression(3, 5, 5)
+        progression_1 = arithmetic_progression(3, 5, 5)
+        progression_2 = arithmetic_progression(3, 7, 9)
         self.assertNotEqual(progression_1, progression_2)
 
 if __name__ == '__main__':
